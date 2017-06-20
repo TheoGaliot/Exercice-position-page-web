@@ -1,0 +1,71 @@
+.fixed{
+  background-color: #00FA9A;
+  height: 100px;
+  left: 0px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 10000;
+}
+
+.fixed p {
+
+  text-shadow: 0.1em 0.1em 0.15em #000000; /* Cette ligne sert à ajouter de la pronfondeur */
+  font-size: 75px;
+  font-family: "Cookie", cursive;
+  font-weight: bold;
+  color: #FFFFF0;
+  left: 50%;
+  margin: 0;
+  top: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+
+}
+
+.placeholder{
+  height: 300px;
+  width: 1000%;
+}
+.rectangle{
+  background-image: url(https://gravityladies.files.wordpress.com/2012/04/arriere-plan-pour-site-web-2-0-1920x1200.jpg);
+  left: 50%;
+  position: absolute;
+  margin: 0;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  height: 75px;
+  width: 300%;
+}
+
+.rectangle p {
+  font-size: 70px;
+  font-family: "Cookie", cursive;
+  font-weight: bold;
+  color: #FFFFF0;
+  left: 50%;
+  margin: 0;
+  top: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+
+}
+
+img {
+  display: block;
+  width: 75px;
+  height: 100px;
+
+}
+
+p{
+  font-size: 25px;
+  font-family: 'Londrina Solid', cursive;
+}
+
+.raleway::first-line {
+
+  color: #F08080;
+  font-style: oblique;
+
+}

@@ -1,0 +1,55 @@
+#main {
+color: navy;
+font-family: "Times New Roman" verdana;
+font-size: 34px;
+line-height: 50px;
+}
+
+#main::first-letter {
+  font-size: 120%;
+  color: red;
+}
+
+#main::first-line{
+  color: green;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.raleway{
+  font-family: 'Cookie', cursive;
+  font-size: 22px;
+  color: #FF6347;
+}
+
+img{
+float: right;
+width:400px;
+height:400px;
+
+  }
+
+body{
+  background-color: #AFEEEE;
+}
+
+a,
+a:visited,
+a:focus {
+  color: #FF1493;
+  }
+
+  a:hover {
+  color:green;
+}
+
+ul a,
+ul a:visited {
+color:black ;
+}
+
+ul a:focus,
+ul a:hover {
+color: #FFB6C1;
+
+}
